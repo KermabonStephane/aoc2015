@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8f726f0f-39f6-49ed-8248-8673aa836856" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/day02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day02.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day01.py" beforeDir="false" afterPath="$PROJECT_DIR$/day01.py" afterDir="false" />
-    </list>
+    <list default="true" id="8f726f0f-39f6-49ed-8248-8673aa836856" name="Changes" comment="Day 2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -144,8 +139,17 @@
       <option name="presentableId" value="Default" />
       <updated>1701800853200</updated>
       <workItem from="1702312501482" duration="30000" />
-      <workItem from="1702312542242" duration="2650000" />
+      <workItem from="1702312542242" duration="3554000" />
     </task>
+    <task id="LOCAL-00001" summary="Day 2">
+      <option name="closed" value="true" />
+      <created>1702316357697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1702316357697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,6 +166,10 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Day 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 2" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
@@ -175,6 +183,6 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/aoc2015$day01.coverage" NAME="day01 Coverage Results" MODIFIED="1702314996070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/aoc2015$day02.coverage" NAME="day02 Coverage Results" MODIFIED="1702315105317" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/aoc2015$day02.coverage" NAME="day02 Coverage Results" MODIFIED="1702315483483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
