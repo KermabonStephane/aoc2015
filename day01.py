@@ -4,7 +4,11 @@ def first_step():
         line = f.readline()
         open = line.count("(")
         close = line.count(")")
+        f.close()
         print(open - close)
+
+first_step() #74
+
 
 def second_step():
     global open
@@ -24,6 +28,5 @@ def second_step():
                 open -= 1
         f.close()
 
-first_step() #74
 
 second_step() #1795
