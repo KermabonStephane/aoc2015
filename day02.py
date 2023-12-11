@@ -10,10 +10,10 @@ def first_step():
                 break
             dims = [int(x) for x in line.split('x')]
             result += dims[0] * dims[1] * 2 + dims[1] * dims[2] * 2 + dims[0] * dims[2] * 2 + min(dims[0] * dims[1], dims[1] * dims[2],  dims[0] * dims[2])
-
+        f.close()
     print(result)
 
-#first_step() #1606483
+first_step() #1606483
 
 def second_step():
     result = 0
