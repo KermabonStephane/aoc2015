@@ -1,39 +1,37 @@
 
 
 def first_step():
-    global open
     with open('day01.txt') as f:
         while True:
             line = f.readline()
             if not line:
                 break
-            open = line.count("(")
-            close = line.count(")")
-            print(open - close)
+            open_count = line.count("(")
+            close_count = line.count(")")
+            print(open_count - close_count)
         f.close()
 
 first_step() #74
 
 
 def second_step():
-    global open
     with open('day01.txt') as f:
         while True:
             line = f.readline()
             if not line:
                 break
             inc = 0
-            open = 0
+            open_count = 0
             for c in line:
                 if c == '(':
                     inc += 1
-                    open += 1
-                elif c == ')' and open < 0:
+                    open_count += 1
+                elif c == ')' and open_count < 0:
                     print(inc)
                     break
                 else:
                     inc += 1
-                    open -= 1
+                    open_count -= 1
         f.close()
 
 

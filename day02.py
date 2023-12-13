@@ -1,8 +1,8 @@
 from functools import reduce
 
+
 def first_step():
     result = 0
-    global open
     with open('day02.txt') as f:
         while True:
             line = f.readline()
@@ -13,11 +13,12 @@ def first_step():
         f.close()
     print(result)
 
-first_step() #1606483
+
+first_step()  # 1606483
+
 
 def second_step():
     result = 0
-    global open
     with open('day02.txt') as f:
         while True:
             line = f.readline()
@@ -31,4 +32,5 @@ def second_step():
 
     print(result)
 
-second_step() #659
+
+second_step()  # 659
