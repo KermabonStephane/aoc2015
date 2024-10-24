@@ -61,5 +61,4 @@ def second_step():
             inc += 1
     print(len(houses))
 
-
 second_step()
